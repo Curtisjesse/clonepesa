@@ -2,8 +2,8 @@
 import "dart:io";
 void main() {
  // print("what is your name?:");
-  //String username = stdin.readLineSync()!;
-  //print("hello ${username}");
+  String username = stdin.readLineSync()!;
+  print("hello ${username}");
 
   print("enter the first number:");
   String num1 = stdin.readLineSync()!;
